@@ -1,0 +1,17 @@
+@import url();
+*{
+    font-family:
+    box-sizing: border-box;
+
+}
+body{
+    max-width: 1200px;
+    border: 1 px solid black;
+    margin: o auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    width:100%;
+    color: #
+}
