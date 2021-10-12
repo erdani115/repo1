@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex_1</title>
+    <style>
+        .container{
+            width: 300px;
+            background: rgb(80, 71, 71, 0.1);
+            display:flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .container2{
+            width: 450px;
+            height: 450px;
+            background: rgba(134, 40, 40, 0.1);
+            display:flex;
+            flex-direction:row-reverse;
+
+        }
+        .box{
+            width:  150px;
+            height: 150px;
+        }
+            .zold{
+                background-color: green;
+            }
+            .sarga{
+                background-color: yellow;
+            }
+            .piros{
+                background-color: red;
+            }
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="box zold"></div>
+        <div class="box sarga"></div>
+        <div class="box piros"></div>
+    </div>
+    <p></p>
+    <div class="container2">
+        <div class="box zold"></div>
+        <div class="box sarga"></div>
+        <div class="box piros"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alap HTML oldal</title>
     <style>
-        .piros{ 
-            color: red;
-        }
-        figure{
-            border: 1px solid blue
-        }
-h1{background-color: chartreuse;
-}
-#mas{
-    font-style: italic;
-    font-weight: 300;
-
-
-}
+      .piros {
+        color: red;
+      }
+      figure{
+          border: rgb(22, 168, 22) solid 1px;
+      }
+      h1{
+          background-color: rgb(142, 148, 132);
+          text-align: center;
+      }
+      #más{
+          font-style: italic;
+          font-weight: bold;
+                }
+        
+      .szegély{
+          border: 1px solid blue;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Főcím</h1>
-    <h2>Alcím 6-os</h2>
-    <br>
-<p>Bekezdés</p>
-<p class="piros">címsor</p>
-<figure>
-<img src="https://picsum.photos/200/300" alt="véletlen fotó"><title>kép címe</title>
-<figcaption>Felirat</figcaption>
-</figure>
-<p id="mas">másik bekezdés</p>
-</body>
+    <h2>Alcím2-es</h2>
+    <figure>
+      <img src="https://picsum.photos/id/1019/300/300" alt="Természetfotó">
+      <figcaption>
+        fotó címe
+      </figcaption>
+    </figure>
+    <br />
+    <p>bekezdés</p>
+    <p class="piros">ez itt valami szöveg</p>
+    <h3 class="szegély">A hét hírei</h3>
+    <p class="szegély">Tornádó tombolt...</p>
+    <figure>
+      <img src="https://picsum.photos/seed/picsum/200/300" alt="véletlen fotó"
+      title="a kép címe">
+      <figcaption>a kép címe</figcaption>
+    </figure>
+    <p id="más">másik bekezdés</p>
+  </body>
 </html>

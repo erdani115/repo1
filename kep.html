@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-    .content{
-        border: 1px solid blue;
-        max-width: 600px;
-        margin: 0 auto;
-        background-color: coral;
-    }
-    figure{
-        border:1px solid blueviolet;
-
-    }
-    img{
-        display: block;
-        margin:0 auto;
-    }
-    h3,figcaption{
-        text-align: center;
-        padding: : 10px 20px 5px 10px;
-    }
-</style>
+    <title>Web oldal címe</title>
+    <style>
+        .content{
+            border: 1px solid greenyellow;
+            max-width: 600px;
+            margin: auto;
+            background-color: beige;
+        }
+        h3{
+            text-align: left;
+            color: rgb(10, 10, 22);
+        }
+        figure{
+            border: 1px solid rgb(224, 164, 164);
+            border-radius: 5px;
+            padding: 20px;
+            margin: auto;
+            background-color: burlywood;
+            margin-bottom: 4rem;
+        }
+        img{/*középre igazítjuk a képet a tárolóban*/
+            display: block;/*inline elem alapértelmezetten, csak a block elemnek adható külső szegély*/
+            margin: 0 auto; /*középre igazítja*/
+        }
+        figcaption{
+            background-color: rgb(10, 10, 22, 0.2) ;
+            color: whitesmoke;
+            text-align: left;
+            padding: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="content">
-        <h3>Figure tag</h3>
-        <figure>
-            <img src="https://picsum.photos/200" alt="valami" title="valami">
-            <figcaption>Kép</figcaption>
-        </figure>
-    </div>
-    <p>bekezdés szóközökkel, több szóköz kellene &nbsp; &nbsp; itt</p>
-    <hr>
+        <h3>Láthatóan működik az oltás Magyarországon</h3>
+        <p>Nicolas Bay szerint Brüsszel sok kérdésben nem azt az utat követi, amit még az Európai Unió alapítói megálmodtak.</p>
+    
+    <figure>
+        <img src="https://picsum.photos/id/2/300/300" alt="MUNKAÁLLOMÁS">
+        <figcaption>Munkaállomás</figcaption>
+    </figure>
+</div>
+
 </body>
 </html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevásárló lista</title>
+</head>
+<style>
+    thead,th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        margin:0  auto;
+        background-color: rgb(152, 152, 170);
+        }
+    table, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        margin:0  auto;
+        background-color: rgb(200, 255, 0);
+        }  
+        td:not(td:nth-child(1)){
+            text-align: right;
+        }
+        
+</style>
+<body>
+    <div>
+        <table>
+            <caption>A bevásárló kosár tartalma</caption>
+            <thead>
+                <th>Terméknév</th>
+                <th>Ár</th>
+                <th>Darab</th>
+                <th>Össz ár</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Napszeműveg</td>
+                    <td>1500</td>
+                    <td>1</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>Poló</td>
+                    <td>2500</td>
+                    <td>2</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>Fülhallgató</td>
+                    <td>20000</td>
+                    <td>3</td>
+                    <td>60000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Összes fizetendő</td>
+                    <td>66500</td>
+                </tr>
+            </tfoot>
+            
+            
+        </table>
+    </div>
+    
+</body>
+</html>
